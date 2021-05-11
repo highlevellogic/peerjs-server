@@ -24,7 +24,7 @@ async function makeRequest() {
       reject(err);
     });
   });
-}
+}  
 
 describe('Check bin/peerjs', () => {
   it('should return content of app.json file', async () => {
